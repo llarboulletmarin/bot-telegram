@@ -10,4 +10,4 @@ CHAT_ID = getenv('TELEGRAM_CHAT_ID')
 
 if __name__ == '__main__':
     bot = TelegramBot(BOT_TOKEN, CHAT_ID)
-    asyncio.run(bot.start())
+    asyncio.run(bot.run())
