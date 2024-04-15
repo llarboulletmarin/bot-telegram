@@ -101,7 +101,9 @@ class TelegramBot:
 
     async def send_messages_interval(self) -> None:
         """
-        Envoie des messages à intervalles réguliers.
+        Envoie des messages à intervalles réguliers. Il s'agit d'un EXEMPLE de tâche asynchrone qui peut être
+        exécutée en parallèle et qui va envoyer démarrer quand le bot aura reçu la commande /start.
+        Il s'arrêtera quand le bot aura reçu la commande /stop.
         :return: None
         """
         while True:
